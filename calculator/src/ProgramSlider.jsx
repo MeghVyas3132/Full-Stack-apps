@@ -3,8 +3,10 @@ import AddTwoNumbers from './Add';
 import IFIMS from './ifim';
 import Calculator from './calculator';
 import Votex from './votex';
+import LoginForm from './LoginPage';
 
 const programs = [
+  { name: 'Login', component: <LoginForm /> },
   { name: 'Calculator', component: <Calculator /> },
   { name: 'Add Two Numbers', component: <AddTwoNumbers /> },
   { name: 'IFIMS', component: <IFIMS /> },
